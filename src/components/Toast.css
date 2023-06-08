@@ -1,0 +1,58 @@
+.toast {
+    width: 90%;
+    /* box-shadow: 0 0 2px 5px rgb(255, 255, 255, 0.4); */
+    color: #686868;
+    padding: 0.5em 1em;
+    margin: 1em 2em;
+
+    animation-name: toast-in-out;
+    animation-duration: 6s;
+}
+
+.toast> h1 {
+    font-size: 1rem;
+}
+
+.toast> h3 {
+    font-size: 0.7rem;
+}
+
+.toast-success {
+    background-color: rgba(141, 255, 181);
+}
+
+.toast-error {
+    background-color: rgb(255, 101, 101);
+}
+
+.toast-warning {
+    background-color: rgba(249, 230, 64);
+}
+
+.toast-info {
+    background-color: rgba(15, 246, 200);
+}
+
+/* @keyframes toast-in {
+    from {
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(0%);
+    }
+} */
+
+@keyframes toast-in-out {
+    0% {
+        transform: translate(100%);
+    }
+    10% {
+        transform: translate(0%);
+    }
+    90% {
+        transform: translate(0%);
+    }
+    100% {
+        transform: translate(100%);
+    }
+}

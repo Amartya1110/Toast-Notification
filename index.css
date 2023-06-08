@@ -1,0 +1,21 @@
+body {
+    background-color: #313131;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+#toast-root {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 30vw;
+    z-index: 10;
+    overflow: hidden;
+}

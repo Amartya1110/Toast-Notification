@@ -1,0 +1,19 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 50vh;
+}
+
+.app-heading {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    background-color: #05f78a;
+    margin: 1em;
+}
